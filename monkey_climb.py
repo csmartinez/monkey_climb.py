@@ -1,5 +1,8 @@
+# Basic Speed Calculator
+# By Carli Martinez
+
 # Gather information
-print("Wondering how long it takes your monkey to reach the top of a tree? \nWell worry no longer! Welcome to Monkey Climb!") 
+print("Wondering how long it takes your monkey to reach the top of a tree? \nWell worry no longer! Welcome to Monkey Climb!")
 top = input("Enter tree height in feet: ")
 height = input("Enter monkey's reach from the ground, in feet: ")
 rate_of_climb = input("In 1 minute, how many feet can your monkey climb? ")
@@ -18,6 +21,6 @@ while int(height) < int(top):
     else:
         print("Sorry, you entered invalid values to compute.")
         break
-        
+
 if int(height) == int(top) or int(height) > int(top):
     print("Conquered a " + str(height) + " ft tree in " + str(minute) + " minutes!")
